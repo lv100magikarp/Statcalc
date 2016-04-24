@@ -3,7 +3,7 @@ title       : Summary Statistics Calculator
 subtitle    : Shiny App Introduction
 author      : Zhenxun Liu
 job         : 
-framework   : dzslides       # {io2012, html5slides, shower, dzslides, ...}
+framework   : io2012       # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
@@ -33,9 +33,7 @@ knit        : slidify::knit2slides
 
 Example:
 
-<div style='text-align: center;'>
-    <img height='450' width='900' src='assets/img/1.png' />
-</div>
+![Example](assets/img/1.png)
 
 ---
 
@@ -47,4 +45,4 @@ Example:
 
 * It cannot deal with direct input of datasets in the forms (e.g. excel spreadsheets).
 
-* Lacks other methods of data presentation (e.g. hisstograms)
+* Lacks other methods of data presentation (e.g. histograms)
